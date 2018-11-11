@@ -1,6 +1,6 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
+title:              AAAAAAAAAAAAAAAAAAAAAAAAAAAAaa
+bio:                'Eu nem acredito que consegui mexer nesse troço'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://rayssags.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -28,6 +28,7 @@ sass:
 # Comments
 disqus_shortname:   taylantatli
 
+
 # Social
 # if you don't have any of social below, comment the line.
 #google:
@@ -37,20 +38,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:				'rayssa17@astro.ufrj.br'
+twitter:            ray_gmrs
+#facebook:           username
+github-url:         rayssags
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          acosmicray
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
@@ -63,7 +64,7 @@ steam:              username
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
