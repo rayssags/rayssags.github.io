@@ -1,77 +1,71 @@
-# Site
-title:              Rayssa Guimarães Silva
-bio:                'Em construção'
-description:        ""
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://rayssags.github.io
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: a cosmic ray
+email: rayssa17@astro.ufrj.br
+description: Data visualization, Python, Python & Python.
+url: http://rayssags.github.io/
+keywords: ["blog", "jekyll"]
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/Sao_Paulo
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Comments
-disqus_shortname:   rayssags
-
-
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:				'rayssa17@astro.ufrj.br'
-twitter:            ray_gmrs
-#facebook:           username
-github-url:         rayssags
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-instagram:          acosmicray
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-
-# Gems
-plugins:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: a cosmic ray
+  avatar: leonids-logob.png
+  job: "Geek bookworm observing galaxies in MIR"
+  bio: "Data visualization, Python, Python & Python."
+  email:
+  disqus-shortname:
+  twitter: ray_gmrs
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: rayssags
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: acosmicray
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
