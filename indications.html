@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  Arquivo
-permalink: /archive/
+title:  Indicações
+permalink: /articles/2020-04/indicacoes
 ---
 
 <div class="archive">
@@ -14,9 +14,7 @@ permalink: /archive/
 
       <ul>
       {% for post in group.items %}
-      {% assign months = "jan,fev,mar,abr,mai,jun,jul,ago,set,out,nov,dez" | split: "," %}
-      {% assign month_number = post.date | date: "%-m" | minus: 1 %}
-        <li><div style="width:60px;float:left;">{{ months[month_number] }} {{ post.date | date: "%-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+        <li><div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
 

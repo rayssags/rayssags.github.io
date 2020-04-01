@@ -35,9 +35,9 @@ kramdown:
 owner:
   name: a cosmic ray
   avatar: leonids-logob.png
-  job: "Geek bookworm observing galaxies in MIR"
-  bio: "Data visualization, Python, Python & Python."
-  email:
+  job: "Mestranda em Astronomia"
+  bio: "Estudo moléculas cheirosas em galáxias "
+  email: rayssa17@astro.ufrj.br
   disqus-shortname:
   twitter: ray_gmrs
   facebook: #username
@@ -68,4 +68,4 @@ owner:
   500px: #username
   codepen: #username
   reddit: #username
-  telegram: #username
+  telegram: rayssags

@@ -1,10 +1,15 @@
-- name: Federal University of Rio de Janeiro
+- name: Universidade Federal do Rio de Janeiro
   link: https://ufrj.br/
-  date: 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+  date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: <br> Mestrado em Astronomia
 
-- name: Federal University of Rio de Janeiro
+- name: Universidade Federal do Rio de Janeiro
+  link: https://ufrj.br/
+  date: 2017 - 2019
+  descr: <br> Bacharelado em Astronomia
+
+- name: Universidade Federal do Rio de Janeiro
   link: https://ufrj.br/
   date: 2014 - 2016
-  descr: <br> (changed courses)
+  descr: <br> Bacharelado em Engenharia de Bioprocessos (incompleto)
 
