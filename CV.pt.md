@@ -1,7 +1,8 @@
 ---
 layout: page
 title: CV
-permalink: /link1/
+permalink: pt/cv/
+lang: pt
 ---
 
 {% include sections/education.html %}

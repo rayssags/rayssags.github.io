@@ -1,14 +1,24 @@
-- name: Universidade Federal do Rio de Janeiro
+- name:
+    pt: Observatório do Valongo/UFRJ
+    en: Valongo Observatory/UFRJ
   link: https://ufrj.br/
   date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> Mestrado em Astronomia
+  descr: 
+    pt: <br> Mestrado em Astronomia
+    en: <br> MSc in Astronomy
 
-- name: Universidade Federal do Rio de Janeiro
+- name:
+    pt: Observatório do Valongo/UFRJ
+    en: Valongo Observatory/UFRJ
   link: https://ufrj.br/
   date: 2017 - 2019
-  descr: <br> Bacharelado em Astronomia
+  descr:
+    pt: <br> Bacharelado em Astronomia
+    en: <br> BSc in Astronomy
 
-- name: Universidade Federal do Rio de Janeiro
+- name:
+    pt: Universidade Federal do Rio de Janeiro
+    en: Federal University of Rio de Janeiro
   link: https://ufrj.br/
   date: 2014 - 2016
   descr: <br> Bacharelado em Engenharia de Bioprocessos (incompleto)
