@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bio
-permalink: en/bio/
+permalink: /en/bio/
 lang: en
 ---
 
