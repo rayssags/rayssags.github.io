@@ -7,7 +7,7 @@ title: Rayssa Silva
 seo: 
     title: Rayssa Silva, astronomer
 permalink: /
-redirects: /en/
+redir_to: /en/
 lang: en
 ---
 Hello! I am an astronomer
