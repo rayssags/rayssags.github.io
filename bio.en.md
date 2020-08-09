@@ -23,4 +23,8 @@ During my undergraduate degree in astronomy, I developed research on the use of 
 
 In the first semesters in astronomy I discovered an unexpected love and aptitude for programming. Fortunately, I had the opportunity to intern between 2018 and 2019 at Fundação Getúlio Vargas in the area of data analysis. I am a big Python enthusiast and whenever I can, I like to learn new things and polish my skills.
 
+{% include image.html src="/im/me.png"
+                      caption="Me, my house plants and my cello."
+                      style="float: left; width: 50%; margin-right: 10px; margin-bottom: 0px" %}
+
 Currently, in my master's degree, I am researching the use of mid-infrared and astro-chemical spectroscopy to investigate evidence of black holes in Lyman Break Analogs. Outside of astronomy, I am passionate about gardening, a begginer cellist and designer, crazy about dogs and science popularization projects. You can find out more about the projects I am part here.
