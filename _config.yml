@@ -73,6 +73,7 @@ plugins:
 #  - name: Link 2
 #    url: http://wallabag.org/
 
+redirects: yes
 langs: ["en", "pt"]
 defaults:
   - scope:

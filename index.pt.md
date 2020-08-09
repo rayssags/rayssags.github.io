@@ -9,4 +9,4 @@ seo:
 lang: pt
 permalink: /pt/
 ---
-Olá! Eu sou astrônoma e no momento estou fazendo mestrado no Observatório do Valongo da Universidade Federal do Rio de Janeiro. 
+Olá! Eu sou uma estudante de mestrado no Observatório do Valongo/UFRJ e parte do grupo de pesquisa LASEX. Pesquiso sobre o uso da espectroscopia no infravermelho médio e astroquímica para investigar evidências de buracos negros em Lyman Break Analogs.
