@@ -4,6 +4,6 @@
 invisible: true
 layout: about
 title: Rayssa Silva
-permalink: /en/
+permalink: /
 ---
 Hello! I am an astronomer
