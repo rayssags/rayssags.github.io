@@ -1,71 +1,81 @@
+# Welcome to Jekyll!
 #
-###################################
-# Site wide configuration
-####################################
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
-title: a cosmic ray
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title_html: "<b>rayssa</b> silva"
+title:
+  en: Rayssa Silva
+  pt: Rayssa Silva
+#pitch: pitch test
 email: rayssa17@astro.ufrj.br
-description: Data visualization, Python, Python & Python.
-url: https://rayssags.github.io
-keywords: ["blog", "jekyll"]
+description: >- # this means to ignore newlines until "baseurl:"
+  Descrição do site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter: acosmicray
+github:  rayssags
+linkedin: rayssags-
+lattes:
+  name: Lattes
+  url: http://lattes.cnpq.br/7456987747174994
+mendeley: rayssa-silva4
+researchgate: Rayssa_Silva4
+orcid: 0000-0003-0634-7710
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          America/Sao_Paulo
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+name: Rayssa
+author_display: true
+shortbio: Biografia curta
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# Build settings
+theme: academic
+plugins:
+  - jekyll-feed
 
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
 #
-###################################
-# Site Owner configuration
-####################################
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
 #
-owner:
-  name: a cosmic ray
-  avatar: leonids-logob.png
-  job: "Mestranda em Astronomia"
-  bio: "Estudo moléculas cheirosas em galáxias "
-  email: rayssa17@astro.ufrj.br
-  disqus-shortname:
-  twitter: ray_gmrs
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: rayssags
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: #username
-  xing: #username
-  instagram: acosmicray
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: rayssags
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+#
+#nav_ext_links:
+#  - name: Link 1
+#    url: http://jupiterbroadcasting.com/
+#  - name: Link 2
+#    url: http://wallabag.org/
+
+langs: ["en", "pt"]
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "en"
