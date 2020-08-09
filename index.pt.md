@@ -4,6 +4,8 @@
 invisible: true
 layout: about
 title: Rayssa Silva
+seo: 
+    title: Rayssa Silva, astronomer
 lang: pt
 permalink: /pt/
 ---
