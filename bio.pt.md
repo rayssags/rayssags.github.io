@@ -4,6 +4,9 @@ title: Bio
 permalink: pt/bio/
 lang: pt
 ---
+{% include image.html src="/im/valongo.png"
+                      caption="O belo Observatório do Valongo."
+                      style="float: left; width: 50%; margin-right: 10px; margin-bottom: 0px" %}
 
 Olá! Meu nome é Rayssa e eu sou uma estudante de mestrado no Observatório do Valongo/UFRJ e parte do Laboratório de Astronomia Extragalática.
 
@@ -11,10 +14,17 @@ Desde pequena, sempre amei ciência. Meus professores do Fundamental reiteravam 
 
 Mesmo depois de alguns semestres, o meu amor por astronomia não passou e decidi persegui-lo como minha carreira. Em 2017 oficialmente me transferi para o curso de Astronomia, no Observatório do Valongo da UFRJ. Foi uma das melhores decisões que tomei na vida e no momento estou no meu primeiro ano de mestrado!
 
+{% include image.html src="/im/bachelorthesis.png"
+                      caption="Dia da defesa do TCC!"
+                      style="float: right; width: 50%; margin-left: 10px; margin-bottom: 0px" %}
+
+
 Durante minha graduação em astronomia desenvolvi uma pesquisa sobre o uso da astroquímica como uma ferramenta para encontrar buracos negros em galáxias próximas sob a tutela da incrível Karín Menendez-Delmestre, minha atual orientadora de mestrado. Nosso trabalho ganhou menção Honrosa nas jornadas de Inciação Científica de 2018 e 2019 da UFRJ!
 
 No primeiros períodos na astronomia descobri um inesperado amor e aptidão por programação e tive a oportunidade de estagiar entre 2018 e 2019 na Fundação Getúlio Vargas na área de análise de dados. Sou uma die-hard fan do Python e sempre que posso gosto de aprender coisas novas e polir minhas habilidades.
 
-Atualmente, no mestrado, pesquiso sobre o uso da espectroscopia no infravermelho médio e astroquímica para investigar evidências de buracos negros em Lyman Break Analogs.
+{% include image.html src="/im/me.png"
+                      caption="Eu, minhas plantas e meu cello."
+                      style="float: left; width: 50%; margin-right: 10px; margin-bottom: 0px" %}
 
-Fora da astronomia sou apaixonada por jardinagem, uma violoncelista e designer inciante, louca por cachorros e projetos de popularização da ciência. Você pode encontrar mais sobre os projetos que participo aqui.
+Atualmente, no mestrado, pesquiso sobre o uso da espectroscopia no infravermelho médio e astroquímica para investigar evidências de buracos negros em Lyman Break Analogs. Fora da astronomia sou apaixonada por jardinagem, uma violoncelista e designer inciante, louca por cachorros e projetos de popularização da ciência. Você pode encontrar mais sobre os projetos que participo aqui.
