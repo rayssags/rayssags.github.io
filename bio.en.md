@@ -9,7 +9,7 @@ lang: en
                       caption="This is the beautiful Valongo Observatory."
                       style="float: left; width: 50%; margin-right: 10px; margin-bottom: 0px" %}
 
-Hello! My name is Rayssa, and I am a master's student at Valongo Observatory/UFRJ and part of the Laboratory of Extragalactic Astronomy.
+Hello! My name is Rayssa, and I am a master's student at [Valongo Observatory/UFRJ](https://ov.ufrj.br/en/graduate-program/) and part of the extragalactic reasearch group [LASEX](https://lasex-valongo.com/).
 
 Since I was little, I have always loved science. My elementary school teachers frequently told my parents that I would be a scientist. They were right. When I had to choose where to go to high school, I opted for a technical school: the distant CEFET/RJ Uned/NI. I have always liked astronomy, but during high school I was fascinated by chemistry and how mascroscopic phenomena could be explained by such small things. So I ended up entering the Bioprocess Engineering course at the UFRJ School of Chemistry in 2014.
 
@@ -19,7 +19,7 @@ Even after a few semesters, my love for astronomy did not pass and I decided to 
                       caption="Bachelor's thesis defense day!"
                       style="float: right; width: 50%; margin-left: 10px; margin-bottom: 0px" %}
 
-During my undergraduate degree in astronomy, I developed research on the use of astro-chemistry as a tool to find black holes in nearby galaxies under the tutelage of the incredible Karín Menendez-Delmestre, my current master's advisor. Our work earned an Honorable mention in UFRJ's Scientific Initiation Journeys of 2018 and 2019!
+During my undergraduate degree in astronomy, I developed research on the use of astro-chemistry as a tool to find black holes in nearby galaxies under the tutelage of the incredible [Karín Menendez-Delmestre](https://lasex-valongo.com/kmd/), my current master's advisor. Our work earned an Honorable mention in UFRJ's Scientific Initiation Journeys of 2018 and 2019!
 
 In the first semesters in astronomy I discovered an unexpected love and aptitude for programming. Fortunately, I had the opportunity to intern between 2018 and 2019 at Fundação Getúlio Vargas in the area of data analysis. I am a big Python enthusiast and whenever I can, I like to learn new things and polish my skills.
 

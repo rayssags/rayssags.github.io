@@ -8,7 +8,7 @@ lang: pt
                       caption="O belo Observatório do Valongo."
                       style="float: left; width: 50%; margin-right: 10px; margin-bottom: 0px" %}
 
-Olá! Meu nome é Rayssa e eu sou uma estudante de mestrado no Observatório do Valongo/UFRJ e parte do Laboratório de Astronomia Extragalática.
+Olá! Meu nome é Rayssa e eu sou uma estudante de mestrado no [Observatório do Valongo/UFRJ](https://ov.ufrj.br/pos-graduacao/) e parte do [Laboratório de Astronomia Extragalática](https://lasex-valongo.com/pt/).
 
 Desde pequena, sempre amei ciência. Meus professores do Fundamental reiteravam continuamente para os meus pais que eu provavelmente seria uma cientista. Eles estavam certos. Ao ter que escolher onde fazer o ensino médio, optei por uma escola técnica: o longíquo CEFET/RJ Uned/NI. Sempre gostei de astronomia, mas durante o ensino médio fiquei fascinada pela química e como fênomenos mascroscópicos podiam ser explicados por coisas tão pequenas. Por isso acabei entrando no curso de Engenharia de Bioprocessos da Escola de Química da UFRJ em 2014. 
 

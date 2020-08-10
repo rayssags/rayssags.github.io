@@ -10,4 +10,4 @@ permalink: /
 redir_to: /en/
 lang: en
 ---
-Hello! I am an astronomer
+Hello! I am a master's student at [Valongo Observatory/UFRJ](https://ov.ufrj.br/en/graduate-program/) and part of [LASEX](https://lasex-valongo.com/). I research about the use of mid-infrared spectroscopy and astrochemistry to investigate the evidences of black holes in Lyman Break Analogs.
