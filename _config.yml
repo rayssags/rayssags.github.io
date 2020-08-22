@@ -20,12 +20,12 @@
 
 title_html: "<b>rayssa</b> silva"
 title:
-  en: Rayssa Silva
-  pt: Rayssa Silva
+  en: Rayssa Guimarães Silva
+  pt: Rayssa Guimarães Silva
 #pitch: pitch test
 email: rayssa17@astro.ufrj.br
 description: >- # this means to ignore newlines until "baseurl:"
-  Descrição do site.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter: acosmicray
@@ -40,7 +40,7 @@ orcid: 0000-0003-0634-7710
 
 name: Rayssa
 author_display: true
-shortbio: Biografia curta
+shortbio: 
 
 # Build settings
 theme: academic
