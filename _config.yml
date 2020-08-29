@@ -46,6 +46,7 @@ shortbio:
 theme: academic
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -67,11 +68,13 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 #
-#nav_ext_links:
-#  - name: Link 1
-#    url: http://jupiterbroadcasting.com/
-#  - name: Link 2
-#    url: http://wallabag.org/
+nav_ext_links:
+  - name: 
+      en: Indicationss
+      pt: Indicaçõess
+    url: 
+      en: ""
+      pt: https://www.notion.so/Indica-es-0621bb2470144140aaba15ba79c688f9
 
 langs: ["en", "pt"]
 defaults:
