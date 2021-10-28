@@ -3,9 +3,9 @@
 <span class="nav-list-title">{{ site.data.academic_i18n.menu[plang] }}</span>
 <ul class="nav-list {{ include.class }}">
 {% if nblangs > 1 %}
-  {% assign pages = site.pages | where:"lang",plang %}
+  {% assign pages = site.pages | sort:"order" | where:"lang",plang %}
 {% else %}
-  {% assign pages = site.pages %}
+  {% assign pages = site.pages | sort:"order" %}
 {% endif %}
 
 {% for my_page in pages %}

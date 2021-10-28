@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Bio
+order: 30
 permalink: pt/bio/
 lang: pt
 ---

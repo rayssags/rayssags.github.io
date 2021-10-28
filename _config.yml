@@ -68,13 +68,13 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 #
-nav_ext_links:
-  - name: 
-      en: Indicationss
-      pt: Indicaçõess
-    url: 
-      en: ""
-      pt: https://www.notion.so/Indica-es-0621bb2470144140aaba15ba79c688f9
+#nav_ext_links:
+#  - name: 
+#      en: Indications
+#      pt: Indicações
+#    url: 
+#      en: ""
+#      pt: https://www.notion.so/Indica-es-0621bb2470144140aaba15ba79c688f9
 
 langs: ["en", "pt"]
 defaults:

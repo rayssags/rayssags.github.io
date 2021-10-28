@@ -1,5 +1,6 @@
 ---
 layout: page
+order: 20
 title: CV
 permalink: en/cv/
 lang: en
