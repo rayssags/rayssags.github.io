@@ -1,7 +1,7 @@
 ---
 layout: default
-order: 0
-title: Etc
+order: 10
+title: Blog
 permalink: /acosmicray/pt/
 lang: pt
 ---
