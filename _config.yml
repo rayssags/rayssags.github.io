@@ -43,7 +43,8 @@ author_display: true
 shortbio: 
 
 # Build settings
-theme: academic
+#theme: academic
+remote_theme: gaalcaras/academic 
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
