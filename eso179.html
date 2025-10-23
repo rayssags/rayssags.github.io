@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESO179-13</title>
+    <script src="https://www.x3dom.org/download/x3dom.js"></script>
+    <link rel="stylesheet" href="https://www.x3dom.org/download/x3dom.css">
+		<script>
+		function setHIlayer0()
+		{
+		if(document.getElementById('ESO179__layer0').getAttribute('transparency')!= '0.8')
+		document.getElementById('ESO179__layer0').setAttribute('transparency', '0.8');
+		else 
+		document.getElementById('ESO179__layer0').setAttribute('transparency', '1'); 
+		}
+		</script>
+		<script>
+		  function setHIlayer1()
+		  {
+		  if(document.getElementById('ESO179__layer1').getAttribute('transparency')!= '0.8')
+		  document.getElementById('ESO179__layer1').setAttribute('transparency', '0.8');
+		  else 
+		  document.getElementById('ESO179__layer1').setAttribute('transparency', '1'); 
+		  }
+		</script>
+		<script>
+		  function setHIlayer2()
+		  {
+		  if(document.getElementById('ESO179__layer2').getAttribute('transparency')!= '0.8')
+		  document.getElementById('ESO179__layer2').setAttribute('transparency', '0.8');
+		  else 
+		  document.getElementById('ESO179__layer2').setAttribute('transparency', '1'); 
+		  }
+		</script>	
+		<script>
+		  function setHIlayer3()
+		  {
+		  if(document.getElementById('ESO179__layer3').getAttribute('transparency')!= '0')
+		  document.getElementById('ESO179__layer3').setAttribute('transparency', '0');
+		  else 
+		  document.getElementById('ESO179__layer3').setAttribute('transparency', '1'); 
+		  }
+		</script>	
+</head>
+<body>
+    <h3>ESO179-13 HI cube</h3>
+    <x3d id="ESO179Fixed" width="800px" height="500px">
+        <scene>
+            <inline url="cube_scene.x3d" nameSpaceName="ESO179" mapDEFToID="true" onclick=''/>
+        </scene>
+    </x3d>
+		<div id="tools" style="width: 1000px;">
+    		  <p>&nbsp;</p>
+		  <button onclick="document.getElementById('ESO179Fixed').runtime.resetView();">Reset View</button>
+		  	  
+		  <br><br>
+		  <b>HI layers:</b> 
+		  <button onclick="setHIlayer0();" style="color:FireBrick">13 &mu;Jy/beam</button>
+		  <button onclick="setHIlayer1();" style="color:FireBrick">25 &mu;Jy/beam</button>
+		  <button onclick="setHIlayer2();" style="color:FireBrick">35 &mu;Jy/beam</button>
+		  <button onclick="setHIlayer3();" style="color:FireBrick">60 &mu;Jy/beam</button>
+		</div>
+</body>
+</html>
