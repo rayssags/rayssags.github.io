@@ -42,35 +42,57 @@
 		  }
 		</script>	
 <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden; /* optional: prevent scrollbars */
-        }
-        x3d {
-            width: 100%;
-            height: 100%;
-            display: block; /* remove inline-block spacing */
-        }
-        #tools {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background: rgba(0,0,0,0);
-            padding: 5px;
-            border-radius: 5px;
-        }
-    </style>
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main-wrapper {
+    padding-left: 20px; /* adjust this value */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* include padding in width/height */
+}
+
+#x3d-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: flex-start;
+}
+
+x3d {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    display: block;
+}
+
+#tools {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0);
+    padding: 5px;
+    border-radius: 5px;
+}
+</style>
+
 </head>
 <body>
-    <h3>ESO179-13 HI cube</h3>
+<div id="main-wrapper">
+    <h2>ESO179-13 HI cube</h2>
+    <div id="x3d-wrapper">
     <x3d id="ESO179Fixed">
         <scene>
             <inline url="cube_scene.x3d" nameSpaceName="ESO179" mapDEFToID="true" onclick=''/>
         </scene>
     </x3d>
+    </div>
 		<div id="tools" style="width: 1000px;">
     		  <p>&nbsp;</p>
 		  <button onclick="document.getElementById('ESO179Fixed').runtime.resetView();">Reset View</button>
@@ -80,5 +102,6 @@
 		  <button onclick="setHIlayer2();" style="color:FireBrick">35 &mu;Jy/beam</button>
 		  <button onclick="setHIlayer3();" style="color:FireBrick">60 &mu;Jy/beam</button>
 		</div>
+</div>
 </body>
 </html>
